@@ -1,0 +1,14 @@
+{
+  "api_key": "YOUR_GANDI_API_KEY",
+  "domain": {
+    "YOUR_DOMAIN":
+    {
+      "ddns": ["A","AAAA"]
+    },
+    "example.com":
+    {
+      "ddns": ["A"],
+      "demo": ["AAAA"]
+    }
+  }
+}
