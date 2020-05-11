@@ -1,33 +1,9 @@
 # Gandi DDNS
-An Auto IP Update Script Using Gandi LiveDNS API
+An DDNS Script Using Gandi LiveDNS API
 
 支持同一Gandi账户下的多域名 A,AAAA 记录修改
 
 我太菜了，又不是不能用.jpg
-
-## English Version
-    
-   ### Usage
-    
-   #### Install Requirements First 
-    For RHEL/CentOS/Fedora Users:
-    yum install -y python3 python3-pip
-    pip3 install requests
-    
-    For Debian/Ubuntu Users:
-    apt install -y python3 python3-pip
-    pip3 install requests
-    
-   #### Get a Gandi API
-   > Start by [retrieving your API Key](https://account.gandi.net/) from the "Security" section in new Account admin panel to be able to make authenticated requests to the API.
-    
-   Then Setup Follow config.json
-   
-   Running Just By
-    
-    python3 ddns.py
-   
-   Using Crontab to Update DNS Automatic
     
 ## 中文版
 
@@ -61,3 +37,27 @@ An Auto IP Update Script Using Gandi LiveDNS API
     */5 * * * * /root/ddns.sh
     
    即可
+   
+## English Version
+    
+   ### Usage
+    
+   #### Install Requirements First 
+    For RHEL/CentOS/Fedora Users:
+    yum install -y python3 python3-pip
+    pip3 install requests
+    
+    For Debian/Ubuntu Users:
+    apt install -y python3 python3-pip
+    pip3 install requests
+    
+   #### Get a Gandi API
+   > Start by [retrieving your API Key](https://account.gandi.net/) from the "Security" section in new Account admin panel to be able to make authenticated requests to the API.
+    
+   Then Setup Follow config.json
+   
+   Running Just By
+    
+    python3 ddns.py
+   
+   Using Crontab to Update DNS Automatic
