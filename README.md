@@ -16,6 +16,9 @@ An DDNS Script Using Gandi LiveDNS API
     apt install -y python3 python3-pip
     pip3 install requests
     
+    国内用户可以使用清华镜像加速下载:
+    pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
+    
    ### 获取Gandi API
    > 进入 [管理页](https://account.gandi.net/) 的安全选项以申请API
 
