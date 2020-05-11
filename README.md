@@ -29,7 +29,7 @@ An DDNS Script Using Gandi LiveDNS API
     
     #！/usr/bin/bash
     cd /root
-    /usr/bin/python3 /root/ddns.py >> /root/ddns.log 2>&1
+    /usr/bin/python3 /root/Gandi-DDNS/ddns.py >> /root/Gandi-DDNS/ddns.log 2>&1
    
    然后
     
@@ -37,7 +37,7 @@ An DDNS Script Using Gandi LiveDNS API
     
    按照需求修改写入的命令
    
-    */5 * * * * /root/ddns.sh
+    */5 * * * * /root/Gandi-DDNS/ddns.sh
     
    即可
    
