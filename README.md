@@ -28,8 +28,8 @@ An DDNS Script Using Gandi LiveDNS API
    先建立一个sh文件
     
     #！/usr/bin/bash
-    cd /root
-    /usr/bin/python3 /root/Gandi-DDNS/ddns.py >> /root/Gandi-DDNS/ddns.log 2>&1
+    cd /root/Gandi-DDNS
+    /usr/bin/python3 ddns.py >> ddns.log 2>&1
    
    然后
     
