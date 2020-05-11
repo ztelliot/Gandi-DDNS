@@ -5,7 +5,7 @@ An DDNS Script Using Gandi LiveDNS API
 
 我太菜了，又不是不能用.jpg
     
-## 中文版
+## 中文版 / Chinese Verison
 
    ### 准备环境
     对于 RHEL/CentOS/Fedora 用户:
